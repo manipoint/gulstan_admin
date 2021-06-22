@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "226390473816",
+    "project_id": "food-4e640",
+    "storage_bucket": "food-4e640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226390473816:android:ad5f73d78ed74517d1de2d",
+        "android_client_info": {
+          "package_name": "com.example.gulstan_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226390473816-7qhugjgaarps9scinh5bpr713dd49c19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFo8SOV9nH7kh0GMYjH6EBDeXWonfniXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226390473816-7qhugjgaarps9scinh5bpr713dd49c19.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "226390473816-4k7p025sg8dhq09gh575lg6jka4l7f24.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gulstanAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226390473816:android:31261c13a4346347d1de2d",
+        "android_client_info": {
+          "package_name": "com.example.gulstan_sweet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226390473816-7qhugjgaarps9scinh5bpr713dd49c19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFo8SOV9nH7kh0GMYjH6EBDeXWonfniXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226390473816-7qhugjgaarps9scinh5bpr713dd49c19.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "226390473816-4k7p025sg8dhq09gh575lg6jka4l7f24.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gulstanAdmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
