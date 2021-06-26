@@ -11,8 +11,6 @@ import 'package:gulstan_admin/components/controllers.dart';
 import 'package:gulstan_admin/components/firebase.dart';
 import 'package:gulstan_admin/models/category.dart';
 import 'package:gulstan_admin/models/product.dart';
-import 'package:gulstan_admin/screens/dashboard/dashboard_screen.dart';
-import 'package:gulstan_admin/screens/product/addProduct.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:uuid/uuid.dart';
 
@@ -32,7 +30,7 @@ class ProductController extends GetxController {
   Rx<PickedFile?> imageFile = Rxn<PickedFile>();
   dynamic _pickImageError;
 
-  createNewProduct() async {
+  createNewProduct(String cat) async {
     String productId = Uuid().v4();
     String imageUrl = await _uploadImageFile(imageFile.value!, productId);
     firebaseFirestore.collection(collection).doc(productId).set({
@@ -42,7 +40,7 @@ class ProductController extends GetxController {
       "price": double.parse(price.text),
       "feature": productController.featured.value,
       "picture": imageUrl,
-      "category": "",
+      "category": cat,
       "review": "Tasaty",
       "rating": 4.8,
     }).catchError((error) {
