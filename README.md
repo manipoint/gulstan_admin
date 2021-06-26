@@ -1,6 +1,7 @@
 # gulstan_admin
 
-A new Flutter project.
+A new Flutter project create new product, upload picture on firebase storage, using Getx 
+
 
 ## Getting Started
 
